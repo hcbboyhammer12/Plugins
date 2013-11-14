@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MagicSponges:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MagicSponges_jar</output-path>
+    <root id="archive" name="MagicSponges.jar">
+      <element id="module-output" name="MagicSponges" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../craftbukkit-1.6.4-R0.1.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>

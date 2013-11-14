@@ -1,0 +1,9 @@
+name: Announcer
+version: 2.0
+main: me.hcbboyhammer12.announcer.Announcer
+description: Broadcasts a message.
+
+commands:
+   annreload:
+      usage: /<command>
+      description: Reloads announcer configuration.

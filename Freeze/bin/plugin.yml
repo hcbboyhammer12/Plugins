@@ -1,0 +1,9 @@
+name: Freeze
+version: 1.0
+main: me.hcbboyhammer12.freeze.Freeze
+description: Freeze players.
+
+commands:
+   freeze:
+      usage: /<command>
+      description: Freeze or Unfreeze players.

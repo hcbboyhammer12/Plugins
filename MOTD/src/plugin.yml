@@ -1,0 +1,17 @@
+name: MOTD
+version: 3.0
+main: me.hcbboyhammer12.motd.MOTD
+description: A super advanced MOTD plugin!
+ 
+commands:
+    motd:
+        usage: /<command>
+        description: View MOTD
+    setmotd:
+        usage: /<command>
+        description: Set MOTD
+       
+permissions:
+    motd.set:
+        description: Use the setmotd command to change the MOTD.
+        default: op

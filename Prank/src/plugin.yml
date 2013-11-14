@@ -1,0 +1,12 @@
+name: Prank
+version: 1.0
+main: me.hcbboyhammer12.prank.Prank
+description: Simple prank plugin
+ 
+commands:
+    fakeop:
+        usage: /<command>
+        description: Fake op
+    fakejoin:
+        usage: /<command>
+        description: Fake join

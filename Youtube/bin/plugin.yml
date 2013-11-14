@@ -1,0 +1,19 @@
+name: Youtube
+main: me.hcbboyhammer12.Youtube.Youtube
+version: 3.0
+
+commands:
+  youtube:
+    aliases: yt
+    description: Displays the Youtube channel for the server.
+    usage: /<command>
+  ytsetname:
+    description: Sets the name for the server's Youtube channel.
+    usage: /<command>
+  ytsetlink:
+    description: Sets the link to the server's Youtube channel.
+    usage: /<command>
+  ytsetmessage:
+    aliases: ytsetmsg
+    description: Sets the custom message when the command /yt is invoked.
+    usage: /<command>

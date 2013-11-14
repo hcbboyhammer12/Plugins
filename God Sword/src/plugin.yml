@@ -1,0 +1,15 @@
+name: God Sword
+version: 1.0
+main: me.hcbboyhammer12.godsword.GodSword
+description: Summons the one and only GOD SWORD!
+
+commands:
+    godsword:
+        usage: /<command>
+        aliases: gs
+        description: Summons the almighty GOD SWORD!
+       
+permissions:
+    gs.summon:
+        description: Allows the OP's to summon the God Sword.
+        default: op

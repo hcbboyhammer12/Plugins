@@ -1,0 +1,14 @@
+name: Kit
+version: 1.0
+main: me.hcbboyhammer12.kit.Kit
+description: A very simple kit plugin.
+depend: [Vault]
+
+commands:
+    kit:
+        usage: /<command>
+        description: Get a kit.
+    ci:
+        usage: /<command>
+        aliases: [clearinventory, clearinv]
+        description: Clears inventory.

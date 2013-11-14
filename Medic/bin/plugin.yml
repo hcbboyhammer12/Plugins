@@ -1,0 +1,28 @@
+name: Medic
+version: 2.0
+main: me.hcbboyhammer12.medic.Medic
+author: hcbboyhammer12
+description: Heal and Feed!
+ 
+commands:
+    heal:
+        usage: /<command>
+        aliases: [health, givehealth]
+        description: Heal.
+    feed:
+        usage: /<command>
+        aliases: [food, sate]
+        description: Feed.
+    hurt:
+        usage: /<command>
+        aliases: harm
+        description: Hurt.
+    starve:
+        usage: /<command>
+        aliases: famish
+        description: Starve.
+        
+permissions:
+   heal.signcreate:
+      description: Create a Heal sign.
+      default: op

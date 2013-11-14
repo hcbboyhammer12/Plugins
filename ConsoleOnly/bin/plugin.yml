@@ -1,0 +1,4 @@
+name: ConsoleOnly
+version: 1.0
+main: me.hcbboyhammer12.consoleonly.ConsoleOnly
+description: Allows for "/op" command to be console-only!

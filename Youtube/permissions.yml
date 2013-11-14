@@ -1,0 +1,9 @@
+yt.setname:
+   description: Set the server's channel name.
+   default: op
+yt.setlink:
+   description: Set the server's channel link.
+   default: op
+yt.setmessage:
+   description: Set the custom message.
+   default: op

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.7" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="craftbukkit-1.6.4-R0.1" value="project"/>
+		<level name="Vault" value="project"/>
+	</levels>
+</component>

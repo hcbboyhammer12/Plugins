@@ -1,0 +1,26 @@
+name: Teleport
+version: 2.0
+main: me.hcbboyhammer12.teleport.Teleport
+description: Spawn and teleport.
+
+commands:
+    tp:
+        usage: /<command>
+        aliases: [teleport]
+        description: Teleport to other players.
+    setspawn:
+        usage: /<command>
+        aliases: [sspawn]
+        description: Set the spawn.
+    spawn:
+        usage: /<command>
+        description: Go to the spawn.
+    setwarp:
+        usage: /<command>
+        description: Set a warp.
+    warp:
+        usage: /<command>
+        description: Warp somewhere.
+    delwarp:
+        usage: /<command>
+        description: Delete a warp.
