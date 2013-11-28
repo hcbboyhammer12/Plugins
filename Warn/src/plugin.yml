@@ -1,0 +1,11 @@
+version: 0.1.0
+name: Warn
+main: me.hcbboyhammer12.warn.WarnMain
+description: Warn people using preset warnings. Also sets the warned players name in tab menu to dark purple.
+
+commands:
+   warn:
+      usage: /<command>
+      description: Warns a player. /warn [reason] [player]
+
+

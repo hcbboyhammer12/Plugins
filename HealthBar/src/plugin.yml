@@ -1,0 +1,4 @@
+name: HealthBar
+main: me.hcbboyhammer12.healthbar.HealthBar
+version: 0.1
+description: Puts player's health before name in chat.

@@ -1,7 +1,5 @@
 package me.hcbboyhammer12.freeze;
 
-import java.util.ArrayList;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -11,6 +9,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.ArrayList;
 
 public class Freeze extends JavaPlugin implements Listener{
 	
@@ -36,7 +36,7 @@ public class Freeze extends JavaPlugin implements Listener{
 				return true;
 			}
 			Player target = Bukkit.getServer().getPlayer(args[0]);
-			if (target == null) {.
+			if (target == null) {
 				sender.sendMessage(ChatColor.RED + "Could not find player " + args[0] + "!");
 				return true;
 			}

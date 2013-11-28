@@ -24,3 +24,6 @@ commands:
     delwarp:
         usage: /<command>
         description: Delete a warp.
+    tpto:
+        usage: /<command>
+        description: Teleports to block player is looking at.

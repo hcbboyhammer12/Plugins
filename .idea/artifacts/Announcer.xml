@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Announcer">
+    <output-path>$PROJECT_DIR$/../../../Test Server/plugins</output-path>
+    <root id="archive" name="Announcer.jar">
+      <element id="module-output" name="Announcer" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Announcer/src/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/../Announcer/src/me/hcbboyhammer12/announcer/config.yml" />
+    </root>
+  </artifact>
+</component>

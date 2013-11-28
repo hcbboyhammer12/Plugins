@@ -5,10 +5,13 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.World;
+import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.ArrayList;
 
 public class Teleport extends JavaPlugin {
 	
@@ -26,7 +29,7 @@ public class Teleport extends JavaPlugin {
 			sender.sendMessage(ChatColor.RED + "This plugin is for players only!");
 		}
 		
-		Player p = (Player) sender;
+		final Player p = (Player) sender;
 		
 		
 		if  (cmd.getName().equalsIgnoreCase("tp")) {
@@ -111,6 +114,26 @@ public class Teleport extends JavaPlugin {
             settings.getData().set("warps." + args[0], null);
             settings.saveData();
             p.sendMessage(ChatColor.GREEN + "Removed warp " + args[0] + "!");
+        }
+
+        final ArrayList<String> cooldown = new ArrayList<String>();
+
+        if (cmd.getName().equalsIgnoreCase("tpto")) {
+            Block b = p.getTargetBlock(null, 100);
+            Location loc = b.getLocation();
+            p.teleport(loc);
+            p.sendMessage(ChatColor.GREEN + "You jumped to the block you were looking at!");
+            cooldown.add(p.getName());
+            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
+
+                public void run() {
+                    cooldown.remove(p.getName());
+                }
+
+            }, 300);
+            return true;
+
+
         }
 
 		return true;		
